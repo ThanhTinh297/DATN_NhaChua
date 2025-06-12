@@ -151,11 +151,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: f1bde3223786b554682db780dbcb8449,
         type: 3}
-      propertyPath: m_ReceiveGI
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: f1bde3223786b554682db780dbcb8449,
-        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a298332b1132d5f4dbbeb510a884ecd3, type: 2}
@@ -256,11 +251,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b03bc840d42bdb0409fd5c5c40689836,
         type: 3}
-      propertyPath: m_ReceiveGI
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: b03bc840d42bdb0409fd5c5c40689836,
-        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a298332b1132d5f4dbbeb510a884ecd3, type: 2}
@@ -358,11 +348,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 6b0f0910ffb68e3439b00936067a512f,
-        type: 3}
-      propertyPath: m_ReceiveGI
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 6b0f0910ffb68e3439b00936067a512f,
         type: 3}
