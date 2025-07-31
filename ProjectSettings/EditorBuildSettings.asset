@@ -5,19 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scene/OutdoorsScene.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
   - enabled: 1
-    path: Assets/Scene/MenuScene.unity
-    guid: 130e05a972fea41489c993227a9ea989
+    path: Assets/Scenes/Master.unity
+    guid: de1f6b2146434174380e7e56fc69579a
   - enabled: 1
-    path: Assets/Scene/LoadingScene.unity
-    guid: f53b43e9bc86acb4d8f57d5efe2d018d
-  - enabled: 0
-    path: Assets/Scene/DemoScene.unity
-    guid: ca2822296cbc30b489875ba6c975efe4
+    path: Assets/Scenes/Forest_EnvironmentSample.unity
+    guid: fc1e6a0c2803d9444a02fce99b5b0fb2
   - enabled: 1
-    path: Assets/Scene/MainScene.unity
-    guid: 66daa14387cea5f4badb3645868dbe27
+    path: Assets/Scenes/AudioZones.unity
+    guid: eceab537e1c21674ab0da7b979399c6e
+  - enabled: 1
+    path: Assets/Scenes/Forest_EnvironmentSample_Collisions.unity
+    guid: b113fbf76ecc0f047b63fe945ed1f232
   m_configObjects: {}
