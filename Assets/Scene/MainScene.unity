@@ -149920,11 +149920,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 901947789}
     m_Modifications:
-    - target: {fileID: 529113292066953683, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2088132817762054308, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -149975,30 +149970,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2117922362662619229, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579556816449281559, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4449227934463627850, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
         type: 3}
       propertyPath: m_Name
       value: TerrainManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 4449227934463627850, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 8130290787011589979, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
