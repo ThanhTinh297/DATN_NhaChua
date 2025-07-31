@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 261.8995, g: 324.45413, b: 429.43256, a: 1}
+  m_IndirectSpecularColor: {r: 261.80057, g: 324.3278, b: 429.24698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -149920,11 +149920,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 901947789}
     m_Modifications:
-    - target: {fileID: 529113292066953683, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2088132817762054308, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -149975,45 +149970,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2117922362662619229, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3579556816449281559, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4449227934463627850, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
         type: 3}
       propertyPath: m_Name
       value: TerrainManager
       objectReference: {fileID: 0}
-    - target: {fileID: 4449227934463627850, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 8085913614574763944, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_TerrainData
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8130290787011589979, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 8832161508499098952, guid: 0732d411127ceef4c9871a4ff9bcbf0e,
-        type: 3}
-      propertyPath: m_TerrainData
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 1843224716814680411, guid: 0732d411127ceef4c9871a4ff9bcbf0e, type: 3}
-    - {fileID: 3879557799605256433, guid: 0732d411127ceef4c9871a4ff9bcbf0e, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0732d411127ceef4c9871a4ff9bcbf0e, type: 3}

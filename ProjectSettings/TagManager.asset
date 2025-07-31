@@ -11,32 +11,32 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - Player
-  - PostProcessing
-  - AreaVolume
-  - 
-  - 
-  - 
-  - 
-  - Terrain
-  - EnvironmentSmall
-  - EnvironmentLarge
-  - ScatterTiny
-  - ScatterSmall
-  - UndergrowthSmall
-  - UndergrowthMedium
-  - UndergrowthLarge
-  - GroundScatter
+  - Lower
   - 
   - 
   - 
   - 
   - 
   - 
-  - ScatterSkyDome
-  - SPECIAL
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
