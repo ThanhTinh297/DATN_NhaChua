@@ -1,23 +1,25 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
-
 public class TextEff : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI _textMeshPro;
-
     public string[] stringArray;
-
     [SerializeField] float timeBtwnChars;
     [SerializeField] float timeBtwnWords;
-
     int i = 0;
 
     void Start()
     {
+        // Kiểm tra lỗi để tránh crash
+        if (_textMeshPro == null || stringArray == null || stringArray.Length == 0)
+        {
+            Debug.LogWarning("TextMeshProUGUI or stringArray is not set or empty!");
+            gameObject.SetActive(false); // Tắt GameObject nếu có lỗi
+            return;
+        }
         EndCheck();
     }
 
@@ -27,6 +29,12 @@ public class TextEff : MonoBehaviour
         {
             _textMeshPro.text = stringArray[i];
             StartCoroutine(TextVisible());
+        }
+        else
+        {
+            // Khi tất cả văn bản đã hiển thị, tắt hoặc xóa GameObject
+            gameObject.SetActive(false); // Tắt GameObject
+            // Hoặc dùng Destroy(gameObject); để xóa hoàn toàn
         }
     }
 
@@ -50,8 +58,6 @@ public class TextEff : MonoBehaviour
 
             counter += 1;
             yield return new WaitForSeconds(timeBtwnChars);
-
-
         }
     }
 }
