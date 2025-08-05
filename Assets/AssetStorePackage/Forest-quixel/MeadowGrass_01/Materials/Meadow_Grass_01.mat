@@ -541,7 +541,7 @@ Material:
     - _UseWind: 0
     - _WindElasticityLvl0: 1
     - _WindElasticityLvl1: 1
-    - _WindElasticityLvlB: 1
+    - _WindElasticityLvlB: 0.06
     - _WindFakeSingleObjectPivot: 0
     - _WindFlutterElasticity: 0.1
     - _WindFlutterPeriodScale: 1

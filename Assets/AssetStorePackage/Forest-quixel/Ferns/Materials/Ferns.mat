@@ -23,22 +23,23 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ferns
-  m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: b3e259512f9b34b428b085e7e7b89ada,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
+  - _ANIM_HIERARCHY_PIVOT
+  - _DETAILMODE_OFF
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
   - _MASKMAP
+  - _NORMALMAPSPACE_TANGENT_SPACE
+  - _USETREEOCCLUSION
+  m_InvalidKeywords:
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
   - _THICKNESSMAP
-  m_InvalidKeywords:
-  - _ANIM_OFF
-  - _DETAILMODE_OFF
-  - _NORMALMAPSPACE_TANGENT_SPACE
-  - _USETREEOCCLUSION
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
@@ -348,7 +349,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ANIM: 0
+    - _ANIM: 2
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -430,6 +431,7 @@ Material:
     - _EnableSpecularOcclusion: 0
     - _EnableWind: 0
     - _EnergyConservingSpecularColor: 1
+    - _ExcludeFromTUAndAA: 0
     - _ForceForwardEmissive: 0
     - _FullDetailNormalBlendThreshold: 1
     - _FullDetailNormalBlendWidth: 0.05
@@ -554,7 +556,7 @@ Material:
     - _UseWind: 0
     - _WindElasticityLvl0: 1
     - _WindElasticityLvl1: 1
-    - _WindElasticityLvlB: 1
+    - _WindElasticityLvlB: 0.07
     - _WindFakeSingleObjectPivot: 0
     - _WindFlutterElasticity: 0.1
     - _WindFlutterPeriodScale: 1
