@@ -6,6 +6,7 @@ using TMPro;
 public class TextEff : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI _textMeshPro;
+    [SerializeField] GameObject objectToDestroy; // Tham chiếu đến GameObject cần xóa
     public string[] stringArray;
     [SerializeField] float timeBtwnChars;
     [SerializeField] float timeBtwnWords;
@@ -32,9 +33,8 @@ public class TextEff : MonoBehaviour
         }
         else
         {
-            // Khi tất cả văn bản đã hiển thị, tắt hoặc xóa GameObject
-            gameObject.SetActive(false); // Tắt GameObject
-            // Hoặc dùng Destroy(gameObject); để xóa hoàn toàn
+            // Khi tất cả văn bản đã hiển thị, bắt đầu coroutine để xóa GameObject sau 1 giây
+            StartCoroutine(DestroyObjectAfterDelay());
         }
     }
 
@@ -59,5 +59,21 @@ public class TextEff : MonoBehaviour
             counter += 1;
             yield return new WaitForSeconds(timeBtwnChars);
         }
+    }
+
+    private IEnumerator DestroyObjectAfterDelay()
+    {
+        // Chờ 1 giây trước khi xóa
+        yield return new WaitForSeconds(1f);
+
+        // Kiểm tra xem objectToDestroy có tồn tại không trước khi xóa
+        if (objectToDestroy != null)
+        {
+            Destroy(objectToDestroy);
+        }
+
+        // Tùy chọn: Tắt hoặc xóa GameObject chứa script này
+        gameObject.SetActive(false); // Tắt GameObject
+        // Hoặc dùng Destroy(gameObject); để xóa hoàn toàn
     }
 }
