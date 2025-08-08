@@ -303440,8 +303440,8 @@ MonoBehaviour:
   PlayerCameraTransform: {fileID: 3125947545016613512}
   ObjectGrabPointTransform: {fileID: 842530746}
   layerMask:
+    serializedVersion: 2
     m_Bits: 512
-  objectGrabbable: {fileID: 0}
 --- !u!33 &6796359840566083167
 MeshFilter:
   m_ObjectHideFlags: 0
