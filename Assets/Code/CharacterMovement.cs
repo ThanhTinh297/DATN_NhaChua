@@ -74,9 +74,12 @@ public class CharacterMovement : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        cameraTransform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         transform.Rotate(Vector3.up * mouseX);
+        cameraTransform.rotation = Quaternion.Euler(xRotation, transform.eulerAngles.y, 0f);
+        cameraTransform.position = transform.position + Vector3.up * 6f;
     }
+
+
 
     void HandleFlashlightToggle()
     {
