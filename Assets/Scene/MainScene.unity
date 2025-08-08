@@ -18573,6 +18573,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 841610626}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &842530745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842530746}
+  m_Layer: 0
+  m_Name: ObjectGrabPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &842530746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842530745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3125947545016613512}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &844340245
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -163854,6 +163885,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 20002741}
+  - {fileID: 842530746}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &3126036388654765603
@@ -303405,11 +303437,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f20d2121b34484fb5f3e7215b54ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerCameraTransform: {fileID: 0}
-  ObjectGrabPointTransform: {fileID: 0}
+  PlayerCameraTransform: {fileID: 3125947545016613512}
+  ObjectGrabPointTransform: {fileID: 842530746}
   layerMask:
-    serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
+  objectGrabbable: {fileID: 0}
 --- !u!33 &6796359840566083167
 MeshFilter:
   m_ObjectHideFlags: 0

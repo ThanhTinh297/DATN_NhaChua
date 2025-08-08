@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4876423605340523647}
   - component: {fileID: 1140521452721702785}
   - component: {fileID: 1178087272437952066}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Flashlight_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 7876788955837212566}
   - component: {fileID: 622136611206542080}
   - component: {fileID: 6898543797439928461}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Flashlight_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1015518481823350914}
   - component: {fileID: 1206100696567673489}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 6383059615033354219}
   - component: {fileID: 2220047360950194330}
   - component: {fileID: 3786252470447341569}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 7435361776511018733}
   - component: {fileID: 9060139816853575751}
   - component: {fileID: 5653285738179090827}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Flashlight_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
