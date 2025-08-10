@@ -14,7 +14,6 @@ Material:
   m_ValidKeywords:
   - _COLORMAP
   - _MATERIAL_AFFECTS_ALBEDO
-  - _MATERIAL_AFFECTS_NORMAL
   - _NORMALMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -130,7 +129,7 @@ Material:
     - _AffectAlbedo: 1
     - _AffectEmission: 0
     - _AffectMetal: 0
-    - _AffectNormal: 1
+    - _AffectNormal: 0
     - _AffectSmoothness: 0
     - _BlendOp: 0
     - _BumpScale: 1
@@ -142,7 +141,7 @@ Material:
     - _Cutoff: 0.5
     - _DecalBlend: 1
     - _DecalColorMask0: 15
-    - _DecalColorMask1: 15
+    - _DecalColorMask1: 0
     - _DecalColorMask2: 0
     - _DecalColorMask3: 0
     - _DecalMaskMapBlueScale: 1
@@ -209,7 +208,7 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.0185518, g: 0.15294118, b: 0.015272317, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}
