@@ -8,10 +8,7 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] private GameObject InventoryMenu;
     [SerializeField] private TextMeshProUGUI ItemName;
     [SerializeField] private TextMeshProUGUI ItemDescription;
-    [SerializeField] private Button rightButton;
-    [SerializeField] private Button leftButton;
     [SerializeField] private List<Item> items;
-
     [SerializeField] private InventoryPreviewer previewer;
 
     public static InventoryManager Instance { get; private set; }
@@ -30,9 +27,6 @@ public class InventoryManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        rightButton.onClick.AddListener(NextItem);
-        leftButton.onClick.AddListener(PreviousItem);
     }
 
     private void Update()
@@ -56,6 +50,20 @@ public class InventoryManager : MonoBehaviour
             {
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
+            }
+        }
+
+        if (InventoryMenu.activeSelf && items.Count > 0)
+        {
+            float scroll = Input.GetAxis("Mouse ScrollWheel");
+
+            if (scroll > 0f)
+            {
+                NextItem();
+            }
+            else if (scroll < 0f)
+            {
+                PreviousItem();
             }
         }
     }
