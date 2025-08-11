@@ -54,9 +54,23 @@ public class CharacterMovement : MonoBehaviour
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
         controller.Move(move * speed * Time.deltaTime);
 
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed = speed * 2f;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = speed / 2f;
+        }
+
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 

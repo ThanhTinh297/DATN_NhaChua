@@ -53,7 +53,7 @@ public class InventoryManager : MonoBehaviour
             }
         }
 
-        if (InventoryMenu.activeSelf && items.Count > 0)
+        if (InventoryMenu.activeSelf && items.Count > 1)
         {
             float scroll = Input.GetAxis("Mouse ScrollWheel");
 
@@ -98,6 +98,10 @@ public class InventoryManager : MonoBehaviour
 
     public void AddItem(Item item)
     {
+        if (item == null || items.Contains(item))
+        {
+            return;
+        }
         inventory.Add(new Inventory(item));
         items.Add(item);
     }
