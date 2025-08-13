@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.015702076, g: 0.013873242, b: 0.01883914, a: 1}
+  m_IndirectSpecularColor: {r: 262.38358, g: 325.10843, b: 430.30963, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3520,6 +3520,26 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1379081199}
+  - {fileID: 1470904383}
+  - {fileID: 2144619650}
+  - {fileID: 717573468}
+  - {fileID: 253002742}
+  - {fileID: 1921735535}
+  - {fileID: 1203916995}
+  - {fileID: 2045481960}
+  - {fileID: 2000766079}
+  - {fileID: 474294060}
+  - {fileID: 1343083348}
+  - {fileID: 1791790365}
+  - {fileID: 1125457747}
+  - {fileID: 1796534804}
+  - {fileID: 1824184383}
+  - {fileID: 992107079}
+  - {fileID: 484874731}
+  - {fileID: 1188572725}
+  - {fileID: 941488727}
+  - {fileID: 2050734868}
+  - {fileID: 725498703}
   - {fileID: 994046943}
   - {fileID: 1884694492}
   - {fileID: 70480099}
@@ -4379,6 +4399,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 243345225}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &253002741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 253002742}
+  - component: {fileID: 253002743}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (42)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &253002742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253002741}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.07793707, z: 0, w: 0.9969583}
+  m_LocalPosition: {x: 663, y: -56.5, z: -68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: -8.94, z: 0}
+--- !u!114 &253002743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253002741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.70462745, y: 0.2666792}
+  m_UVBias: {x: 0.00894368, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -135.02977, y: -12.907867, z: 16.600704}
+  m_Size: {x: 264.822, y: 40.197266, z: 102.76078}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &254873049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8356,6 +8434,64 @@ CapsuleCollider:
   m_Height: 100.07414
   m_Direction: 1
   m_Center: {x: -14.800301, y: 17.06398, z: 0.37720475}
+--- !u!1 &474294059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 474294060}
+  - component: {fileID: 474294061}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (25)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &474294060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474294059}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7032086, z: 0, w: 0.7109836}
+  m_LocalPosition: {x: 125.8, y: -67.2, z: 10.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 89.37, z: 0}
+--- !u!114 &474294061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474294059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.7032939, y: 0.2666792}
+  m_UVBias: {x: 0.010277309, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -60.55131, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 115.865074, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &475284163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8550,6 +8686,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 484857730}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &484874730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484874731}
+  - component: {fileID: 484874732}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (35)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &484874731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484874730}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 191.6, y: -67.2, z: -48.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &484874732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484874730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.5044089, y: 0.2666792}
+  m_UVBias: {x: 0.1697222, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -50.66613, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 83.09952, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &485967969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13182,6 +13376,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 715172245}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &717573467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 717573468}
+  - component: {fileID: 717573469}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (43)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &717573468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717573467}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.61504245, z: 0, w: 0.78849405}
+  m_LocalPosition: {x: 680.5, y: -45, z: -146.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 75.91, z: 0}
+--- !u!114 &717573469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717573467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.25604665, y: 0.26726088}
+  m_UVBias: {x: 0.4575245, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -50.734127, y: -12.864029, z: -10.468338}
+  m_Size: {x: 96.230705, y: 40.284943, z: 19.000462}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &719925193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13384,6 +13636,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 723468857}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &725498702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 725498703}
+  - component: {fileID: 725498704}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &725498703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725498702}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 83.3, y: -67.2, z: 53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &725498704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725498702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 2.1306984, y: 0.2666792}
+  m_UVBias: {x: -1.4171275, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -178.1311, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 351.02466, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &736874869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17262,6 +17572,64 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &941488726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 941488727}
+  - component: {fileID: 941488728}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (33)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &941488727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941488726}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.700847, z: 0, w: 0.7133117}
+  m_LocalPosition: {x: 174.9, y: -67.2, z: -126.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 88.99, z: 0}
+--- !u!114 &941488728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941488726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.5044089, y: 0.2666792}
+  m_UVBias: {x: 0.1697222, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -50.66613, y: -7.758251, z: 7.415199}
+  m_Size: {x: 83.09952, y: 14.803505, z: 13.532271}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!64 &944654772
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17810,6 +18178,64 @@ MonoBehaviour:
   m_Size: {x: 60.661674, y: 26.573212, z: 16.425014}
   m_FadeFactor: 1
   m_Version: 2
+--- !u!1 &992107078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 992107079}
+  - component: {fileID: 992107080}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (34)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &992107079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992107078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 191.6, y: -67.2, z: -116.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992107080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992107078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.5044089, y: 0.2666792}
+  m_UVBias: {x: 0.1697222, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -50.66613, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 83.09952, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1 &994046942
 GameObject:
   m_ObjectHideFlags: 0
@@ -18105,7 +18531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1004987993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20068,6 +20494,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1123322364}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1125457746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1125457747}
+  - component: {fileID: 1125457748}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (28)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1125457747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125457746}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 76.6, y: -67.2, z: 66.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1125457748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125457746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.7032939, y: 0.2666792}
+  m_UVBias: {x: 0.010277309, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -60.55131, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 115.865074, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &1129023484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21139,6 +21623,64 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.010335242, y: 0.0009149999, z: 0.0024779001}
   m_Center: {x: 0.000026595546, y: -0.00010405102, z: -0.000041601015}
+--- !u!1 &1188572724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1188572725}
+  - component: {fileID: 1188572726}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (36)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1188572725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188572724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 330.5, y: -67.2, z: -48.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1188572726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188572724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.70561296, y: 0.2666792}
+  m_UVBias: {x: 0.037632924, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -55.853546, y: -7.758251, z: -33.805725}
+  m_Size: {x: 116.24713, y: 14.803505, z: 123.47986}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1 &1192518072
 GameObject:
   m_ObjectHideFlags: 0
@@ -21317,6 +21859,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1194539160}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1203916994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1203916995}
+  - component: {fileID: 1203916996}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (37)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1203916995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203916994}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.013787601, z: 0, w: 0.999905}
+  m_LocalPosition: {x: 165.6, y: -47.6, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: -1.58, z: 0}
+--- !u!114 &1203916996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203916994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.17933027, y: 0.26128265}
+  m_UVBias: {x: 0.14161667, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -82.07417, y: -2.279663, z: 6.078556}
+  m_Size: {x: 29.544006, y: 25.760681, z: 25.47776}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!136 &1213092844
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23612,6 +24212,64 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3712665237822624443, guid: 35eb9ab38897d4f449d8903b6721ae29, type: 3}
+--- !u!1 &1343083347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343083348}
+  - component: {fileID: 1343083349}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1343083348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343083347}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 249.4, y: -67.2, z: 126.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1343083349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343083347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.7032939, y: 0.2666792}
+  m_UVBias: {x: 0.010277309, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -60.55131, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 115.865074, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!64 &1348395497
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27467,6 +28125,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1470067819}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1470904382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1470904383}
+  - component: {fileID: 1470904384}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (40)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1470904383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470904382}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.14349268, z: 0, w: 0.9896514}
+  m_LocalPosition: {x: 680.2, y: -50.7, z: -219.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: -16.5, z: 0}
+--- !u!114 &1470904384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470904382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.70462745, y: 0.2666792}
+  m_UVBias: {x: 0.00894368, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -135.02977, y: -12.907867, z: 6.6935797}
+  m_Size: {x: 264.822, y: 40.197266, z: 38.34951}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!64 &1471941327
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33498,6 +34214,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1784781003}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1791790364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791790365}
+  - component: {fileID: 1791790366}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1791790365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791790364}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 252.1, y: -67.2, z: 18.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1791790366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791790364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.7032939, y: 0.2666792}
+  m_UVBias: {x: 0.010277309, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -60.55131, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 115.865074, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1 &1792959331
 GameObject:
   m_ObjectHideFlags: 0
@@ -33534,6 +34308,64 @@ Transform:
   - {fileID: 199779079}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1796534803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1796534804}
+  - component: {fileID: 1796534805}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1796534804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796534803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.700847, z: 0, w: 0.7133117}
+  m_LocalPosition: {x: -282.3, y: -67.2, z: 66.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 88.99, z: 0}
+--- !u!114 &1796534805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796534803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.7526104, y: 0.2666792}
+  m_UVBias: {x: 0.010277309, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -56.488956, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 123.989784, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &1798523638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34059,6 +34891,64 @@ MonoBehaviour:
   m_ScaleMode: 0
   m_Offset: {x: 6.1029205, y: -22.41159, z: 2.827032}
   m_Size: {x: 73.74533, y: 21.555847, z: 4.355938}
+  m_FadeFactor: 1
+  m_Version: 2
+--- !u!1 &1824184382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1824184383}
+  - component: {fileID: 1824184384}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (32)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1824184383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824184382}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.700847, z: 0, w: 0.7133117}
+  m_LocalPosition: {x: 101.7, y: -67.2, z: -127.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 88.99, z: 0}
+--- !u!114 &1824184384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824184382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.5044089, y: 0.2666792}
+  m_UVBias: {x: 0.1697222, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -50.66613, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 83.09952, y: 14.803505, z: 9.582055}
   m_FadeFactor: 1
   m_Version: 2
 --- !u!1 &1828414405
@@ -34979,6 +35869,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1920963653}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1921735534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921735535}
+  - component: {fileID: 1921735536}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (24)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1921735535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921735534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.013787601, z: 0, w: 0.999905}
+  m_LocalPosition: {x: 254.1, y: -67.2, z: 20.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: -1.58, z: 0}
+--- !u!114 &1921735536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921735534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.7032939, y: 0.2666792}
+  m_UVBias: {x: 0.010277309, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -60.55131, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 115.865074, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1 &1923172592
 GameObject:
   m_ObjectHideFlags: 0
@@ -36584,6 +37532,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1999710194}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2000766078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000766079}
+  - component: {fileID: 2000766080}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (39)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2000766079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000766078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.6170358, z: 0, w: 0.7869351}
+  m_LocalPosition: {x: 101.1, y: -49.5, z: -82.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 76.2, z: 0}
+--- !u!114 &2000766080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000766078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.17933027, y: 0.2666792}
+  m_UVBias: {x: 0.14161667, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -82.07417, y: -17.60648, z: 6.078556}
+  m_Size: {x: 29.544006, y: 34.49996, z: 25.47776}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &2001233050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37491,6 +38497,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2042393834}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2045481959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2045481960}
+  - component: {fileID: 2045481961}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (38)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2045481960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045481959}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.6170358, z: 0, w: 0.7869351}
+  m_LocalPosition: {x: 101.1, y: -49.5, z: -82.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 76.2, z: 0}
+--- !u!114 &2045481961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045481959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.17933027, y: 0.2666792}
+  m_UVBias: {x: 0.14161667, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -82.07417, y: -27.441425, z: 6.078556}
+  m_Size: {x: 29.544006, y: 54.169853, z: 25.47776}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!64 &2050587658
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37513,6 +38577,64 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4920087964079425494, guid: 35eb9ab38897d4f449d8903b6721ae29, type: 3}
+--- !u!1 &2050734867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2050734868}
+  - component: {fileID: 2050734869}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2050734868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050734867}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 83.3, y: -67.2, z: 181.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2050734869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050734867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 2.1306984, y: 0.2666792}
+  m_UVBias: {x: -1.4171275, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -178.1311, y: -7.758251, z: 5.4400907}
+  m_Size: {x: 351.02466, y: 14.803505, z: 9.582055}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &2052386318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38620,6 +39742,64 @@ Transform:
   - {fileID: 968922425}
   m_Father: {fileID: 1792959332}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2144619649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144619650}
+  - component: {fileID: 2144619651}
+  m_Layer: 0
+  m_Name: Decal Projector Vetban tren (41)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2144619650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144619649}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.0061085457, z: 0, w: 0.99998134}
+  m_LocalPosition: {x: 665.5, y: -56.5, z: -170.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199779079}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.7, z: 0}
+--- !u!114 &2144619651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144619649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb62358e30d33ad44b5034ed6431ed47, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 1
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 0.70462745, y: 0.2666792}
+  m_UVBias: {x: 0.00894368, y: 0.23040901}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: -135.02977, y: -12.907867, z: -4.455675}
+  m_Size: {x: 264.822, y: 40.197266, z: 60.64802}
+  m_FadeFactor: 1
+  m_Version: 2
 --- !u!1001 &2144736178
 PrefabInstance:
   m_ObjectHideFlags: 0
