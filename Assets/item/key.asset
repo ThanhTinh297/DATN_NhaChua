@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2a39995b7f848a428ef042275079249, type: 3}
-  m_Name: family
+  m_Name: key
   m_EditorClassIdentifier: 
-  itemName: "b\u1EE9c \u1EA3nh gia \u0111\xECnh"
-  itemDescription: "b\u1EE9c \u1EA3nh gia \u0111\xECnh 3 ng\u01B0\u1EDDi ng\u01B0\u1EDDi
-    cha b\u1ECB m\u1EA5t khu\xF4n m\u1EB7t"
-  itemPrefab: {fileID: 5489084860366575096, guid: f07bfa44da397c24496a072699b0ef1b,
+  itemName: "m\u1ED9t chi\u1EBFc ch\xECa kh\xF3a c\u0169 k\u0129"
+  itemDescription: "n\xF3 d\xF9ng \u0111\u1EC3 m\u1EDF g\xEC \u0111\xF3"
+  itemPrefab: {fileID: 919132149155446097, guid: 7c4404f8adbef914baf8ad1ad25790f6,
     type: 3}
