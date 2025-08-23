@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.020482697, g: 0.017096898, b: 0.01949854, a: 1}
+  m_IndirectSpecularColor: {r: 0.02052168, g: 0.017141582, b: 0.019558223, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1947,24 +1947,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 10, y: 5.431508, z: 10}
+  m_Size: {x: 20, y: 5.431508, z: 20}
   m_Center: {x: 0, y: 2.2842462, z: 0}
---- !u!114 &75921105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75921102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b75fed7adcf404747a16d4476383ef93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundClip: {fileID: 8300000, guid: cb873da908e9132489f562fb124e8efe, type: 3}
-  riseHeight: 10
-  riseSpeed: 2
-  resetDelay: 30
 --- !u!136 &75921107
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1988,6 +1972,20 @@ CapsuleCollider:
   m_Height: 1.4920075
   m_Direction: 1
   m_Center: {x: 0, y: 0.80766296, z: 0}
+--- !u!114 &75921108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75921102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a6a8fc3df8c5742845e69095df1b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 6
+  player: {fileID: 3576904066962918219}
 --- !u!1 &76796175 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b9527748312271d4e8616ee3d2242a88,
@@ -42556,10 +42554,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d2fb7b56510e830478b7e9fbb86f6e07,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 75921105}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d2fb7b56510e830478b7e9fbb86f6e07,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 75921104}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d2fb7b56510e830478b7e9fbb86f6e07,
         type: 3}
@@ -42569,6 +42563,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 75921107}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d2fb7b56510e830478b7e9fbb86f6e07,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 75921108}
   m_SourcePrefab: {fileID: 100100000, guid: d2fb7b56510e830478b7e9fbb86f6e07, type: 3}
 --- !u!1 &1724501759
 GameObject:
