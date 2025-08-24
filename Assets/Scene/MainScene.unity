@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 261.80057, g: 324.3278, b: 429.24698, a: 1}
+  m_IndirectSpecularColor: {r: 262.38358, g: 325.10843, b: 430.30963, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16201,6 +16201,10 @@ PrefabInstance:
     - {fileID: 1586072405430927413, guid: 2beac87361bdcbd4f864fee6ee749b8d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2404236171777993214, guid: 2beac87361bdcbd4f864fee6ee749b8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470263474}
     - targetCorrespondingSourceObject: {fileID: -6903663018532649176, guid: 2beac87361bdcbd4f864fee6ee749b8d,
         type: 3}
       insertIndex: -1
@@ -16210,6 +16214,34 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1637112892}
   m_SourcePrefab: {fileID: 100100000, guid: 2beac87361bdcbd4f864fee6ee749b8d, type: 3}
+--- !u!1 &470263473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2404236171777993214, guid: 2beac87361bdcbd4f864fee6ee749b8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 470263472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &470263474
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470263473}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4644949611517087301, guid: 2beac87361bdcbd4f864fee6ee749b8d, type: 3}
 --- !u!1 &472461571
 GameObject:
   m_ObjectHideFlags: 0
@@ -48636,7 +48668,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -48659,8 +48691,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.689172, y: 29.073599, z: 26.862373}
-  m_Center: {x: 15.4715805, y: 18.527792, z: -0.045823097}
+  m_Size: {x: 1.3789101, y: 17.495789, z: 18.358765}
+  m_Center: {x: 17.12671, y: 19.291962, z: -0.9423218}
 --- !u!1001 &1639466388
 PrefabInstance:
   m_ObjectHideFlags: 0
