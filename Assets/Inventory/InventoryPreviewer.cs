@@ -20,6 +20,11 @@ public class InventoryPreviewer : MonoBehaviour
         currentItem.transform.localRotation = Quaternion.identity;
     }
 
+    public void HideItem()
+    {
+        Destroy(currentItem);
+    }
+
     private void Update()
     {
         if (currentItem != null)

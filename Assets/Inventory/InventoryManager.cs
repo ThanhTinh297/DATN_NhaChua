@@ -31,6 +31,11 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        UseButton.onClick.AddListener(OnUseButtonClicked);
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.B))
@@ -78,16 +83,6 @@ public class InventoryManager : MonoBehaviour
                 PreviousItem();
             }
         }
-        
-        UseButton.onClick.AddListener(() =>
-        {
-            if (items[currentIndex].itemType.Equals(ItemType.RecoverSanity))
-            {
-                SanityManager sanityManager = FindObjectOfType<SanityManager>();
-                sanityManager.RecoverSanity(items[currentIndex].Values);
-                Destroy(items[currentIndex]);
-            }
-        });
     }
 
     private void ShowCurrentItem()
@@ -95,11 +90,27 @@ public class InventoryManager : MonoBehaviour
         if (items.Count == 0 || currentIndex < 0 || currentIndex >= items.Count)
             return;
 
+        if (items[currentIndex].itemType.Equals(ItemType.Other))
+        {
+            UseButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            UseButton.gameObject.SetActive(true);
+        }
+
         Item currentItem = items[currentIndex];
 
         ItemName.text = currentItem.itemName;
         ItemDescription.text = currentItem.itemDescription;
         previewer.ShowItem(currentItem.itemPrefab);
+    }
+
+    private void hideCurrentItem()
+    {
+        ItemName.text = "";
+        ItemDescription.text = "";
+        previewer.HideItem();
     }
 
     private void NextItem()
@@ -116,6 +127,26 @@ public class InventoryManager : MonoBehaviour
 
         currentIndex = (currentIndex - 1 + items.Count) % items.Count;
         ShowCurrentItem();
+    }
+
+    private void OnUseButtonClicked()
+    {
+        if (items.Count == 0 || currentIndex < 0 || currentIndex >= items.Count)
+            return;
+
+        if (items[currentIndex].itemType.Equals(ItemType.RecoverSanity))
+        {
+            SanityManager sanityManager = FindObjectOfType<SanityManager>();
+            sanityManager.RecoverSanity(items[currentIndex].Values);
+
+            items.RemoveAt(currentIndex);
+            hideCurrentItem();
+
+            if (currentIndex >= items.Count)
+                currentIndex = items.Count - 1;
+
+            ShowCurrentItem();
+        }
     }
 
     public void AddItem(Item item)
