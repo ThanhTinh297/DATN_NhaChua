@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "m\u1ED9t chi\u1EBFc ch\xECa kh\xF3a c\u0169 k\u0129"
   itemDescription: "n\xF3 d\xF9ng \u0111\u1EC3 m\u1EDF g\xEC \u0111\xF3"
-  itemPrefab: {fileID: 919132149155446097, guid: 7c4404f8adbef914baf8ad1ad25790f6,
+  itemPrefab: {fileID: 4706277471153966314, guid: 1def6933c3cd3ae4cacb842ad2eb7f3e,
     type: 3}
+  itemType: 0
+  Values: 0

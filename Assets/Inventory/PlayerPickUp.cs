@@ -9,8 +9,6 @@ public class PlayerPickUp : MonoBehaviour
     [SerializeField] private LayerMask layerMask;
 
     private ObjectGrabbable objectGrabbable;
-    //Inventory inventory = new Inventory();
-
 
     void Update()
     {
@@ -19,7 +17,8 @@ public class PlayerPickUp : MonoBehaviour
             float maxDistance = 25f;
             if (objectGrabbable == null)
             {
-                if (Physics.Raycast(PlayerCameraTransform.position, PlayerCameraTransform.forward, out RaycastHit raycastHit, maxDistance, layerMask))
+                if (Physics.Raycast(PlayerCameraTransform.position, PlayerCameraTransform.forward,
+                        out RaycastHit raycastHit, maxDistance, layerMask))
                 {
                     if (raycastHit.transform.TryGetComponent(out objectGrabbable))
                     {
@@ -51,6 +50,5 @@ public class PlayerPickUp : MonoBehaviour
                 objectGrabbable = null;
             }
         }
-
     }
 }

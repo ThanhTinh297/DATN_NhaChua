@@ -17,3 +17,5 @@ MonoBehaviour:
     v\u1EABn c\xF2n c\xF3 th\u1EC3 ho\u1EA1t \u0111\u1ED9ng."
   itemPrefab: {fileID: 6043547344774118737, guid: 0bfef017178c9b24aaf6ffeef9c50a00,
     type: 3}
+  itemType: 1
+  Values: 50

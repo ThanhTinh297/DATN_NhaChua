@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
@@ -10,6 +11,7 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI ItemDescription;
     [SerializeField] private List<Item> items;
     [SerializeField] private InventoryPreviewer previewer;
+    [SerializeField] private Button UseButton;
 
     public static InventoryManager Instance { get; private set; }
     public List<Inventory> inventory;
@@ -40,6 +42,11 @@ public class InventoryManager : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
 
+                if (EventSystem.current != null)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                }
+
                 if (items.Count > 0)
                 {
                     currentIndex = 0;
@@ -50,6 +57,11 @@ public class InventoryManager : MonoBehaviour
             {
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
+
+                if (EventSystem.current != null)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                }
             }
         }
 
@@ -66,6 +78,16 @@ public class InventoryManager : MonoBehaviour
                 PreviousItem();
             }
         }
+        
+        UseButton.onClick.AddListener(() =>
+        {
+            if (items[currentIndex].itemType.Equals(ItemType.RecoverSanity))
+            {
+                SanityManager sanityManager = FindObjectOfType<SanityManager>();
+                sanityManager.RecoverSanity(items[currentIndex].Values);
+                Destroy(items[currentIndex]);
+            }
+        });
     }
 
     private void ShowCurrentItem()
@@ -102,6 +124,7 @@ public class InventoryManager : MonoBehaviour
         {
             return;
         }
+
         inventory.Add(new Inventory(item));
         items.Add(item);
     }
